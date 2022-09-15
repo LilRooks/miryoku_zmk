@@ -17,6 +17,12 @@ K10  K11  K12  K13  K14  XXX         XXX         K15  K16  K17  K18  K19 \
 K20  K21  K22  K23  K24  XXX         XXX         K25  K26  K27  K28  K29 \
           K32  K33  K34  &to U_BASE  &to U_BASE  K35  K36  K37
 
+/ {
+  chosen {
+    zmk,matrix_transform = &ortho_transform;
+  };
+};
+
 #define MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base") \
 MIRYOKU_X(EXTRA,  "Extra") \
