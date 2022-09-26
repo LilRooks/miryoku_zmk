@@ -1,3 +1,5 @@
+#define XXX &none
+
 // FPS friendly tap layer
 #define MIRYOKU_LAYER_GAME \
 &kp TAB,           &kp Q,             &kp W,             &kp E,             &kp R,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
