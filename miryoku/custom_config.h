@@ -3,21 +3,21 @@
 
 // FPS friendly tap layer
 #define MIRYOKU_LAYER_GAME \
-&kp TAB,           &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp NUM_4,             \
+&kp TAB,           &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp NUM_4,         \
 &kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             &kp G,             U_MS_L,            U_MS_D,            U_MS_U,            U_MS_R,            \
-&kp ESC,           &kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
+&kp ESC,           &kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp LBKT,          &kp COMMA,         &kp DOT,           &kp RBKT,         \
 U_NP,              U_NP,              &kp LCTRL,         &kp SPC,           &kp LALT,          U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
 #define MIRYOKU_LAYER_DONE \
-&kp N1,            &kp N2,            &kp N3,            &kp N4,            &kp TILDE,         U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp F1,            &kp F2,            &kp F3,            &kp F4,            &kp F5,            U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp Q,             &kp W,             &kp C,             &kp I,             &kp T,             U_NA,              &u_to_U_FUN,       &u_to_U_MEDIA,     &kp RALT,          U_NA,              \
+&kp N1,            &kp N2,            &kp N3,            &kp N4,            &kp TILDE,         U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              \
+&kp F1,            &kp F2,            &kp F3,            &kp F4,            &kp F5,            U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              \
+&kp Q,             &kp W,             &kp C,             &kp I,             &kp T,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              \
 U_NP,              U_NP,              U_LT(U_DTWO, ESC), &kp SPC,           &kp LSHFT,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_DTWO \
-LS(N1),            LS(N2),            LS(N3),            LS(N4),            &kp TILDE,         U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp F6,            &kp F7,            &kp F8,            &kp F9,            &kp F10,           U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp P,             &kp M,             &kp S,             &kp I,             &kp T,             U_NA,              &u_to_U_FUN,       &u_to_U_MEDIA,     &kp RALT,          U_NA,              \
+LS(N1),            LS(N2),            LS(N3),            LS(N4),            &kp TILDE,         U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              \
+&kp F6,            &kp F7,            &kp F8,            &kp F9,            &kp F10,           U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              \
+&kp P,             &kp M,             &kp S,             &kp I,             &kp T,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              \
 U_NP,              U_NP,              U_NA,              &kp SPC,           &kp LSHFT,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 // Direct custom layer access
