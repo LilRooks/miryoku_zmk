@@ -1,4 +1,5 @@
 #define XXX &none
+#define MIRYOKU_KLUDGE_MOUSEKEYSPR
 
 // FPS friendly tap layer
 #define MIRYOKU_LAYER_GAME \
