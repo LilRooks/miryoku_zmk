@@ -9,3 +9,5 @@ jobs:
     secrets: inherit
     with:
       board: '["technikable"]'
+      kconfig: '["CONFIG_ZMK_MOUSE=y"]'
+      branches: '["zmkfirmware/zmk/main ftc/zmk/mouse-ftc"]'
