@@ -15,7 +15,7 @@ U_NP,              U_NP,              &kp LCTRL,         &kp SPC,           &kp 
 U_NP,              U_NP,              U_LT(U_DTWO, ESC), &kp SPC,           &kp LSHFT,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_DTWO \
-LS(N1),            LS(N2),            LS(N3),            LS(N4),            &kp TILDE,         U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              \
+&kp N1,            &kp N2,            &kp N3,            &kp N4,            &kp TILDE,         U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              \
 &kp F6,            &kp F7,            &kp F8,            &kp F9,            &kp F10,           U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              \
 &kp P,             &kp M,             &kp S,             &kp I,             &kp T,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              \
 U_NP,              U_NP,              U_NA,              &kp SPC,           &kp LSHFT,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
